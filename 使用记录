@@ -12,4 +12,4 @@ sudo cp {client}/root.pem /etc/ssl/certs/cacert.pem
 ./tier2pool client --server wss://43.129.176.158 --pool tcp://pool.minexmr.com:4444 --token mypassword
 ./xmrig -o 127.0.0.1:1234 -u 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD -a rx/0 -t 1
 
-
+http://www.honlyc.com/post/golang-x509-certificate-unknown-authority/
