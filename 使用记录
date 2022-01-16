@@ -16,3 +16,7 @@ http://www.honlyc.com/post/golang-x509-certificate-unknown-authority/
 https://cloud.tencent.com/developer/article/1651907
 
 在windows上，发现暂时不需添加证书，就能使用xmr，但是对于hac，则不兼容，因此可能需要做额外开发； --hac体量暂时太小，没必要
+
+在windows上，可以通过 --listen 0.0.0.0:1234 ， 使得局域网仅通过一个在某几台机器设置代理便可以连接; --根据机器数量设定;  --通过配置文件指定，以后通过设备发现的方式自动加入；
+
+
