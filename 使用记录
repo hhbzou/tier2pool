@@ -1,0 +1,15 @@
+1- 成功转发xmr相关配置：
+
+server：43.129.176.158
+
+使用的是 43_129_..58.zip 中的43_129_176_158.pem 和 43_129_176_158.key
+./tier2pool server --ssl-certificate ./pem.pem --ssl-certificate-key ./key.key --token mypassword --redirect https://www.bing.com:443 --debug
+
+
+client上:
+使用的是 43_129_..58.zip 中的root.pem，
+sudo cp {client}/root.pem /etc/ssl/certs/cacert.pem
+./tier2pool client --server wss://43.129.176.158 --pool tcp://pool.minexmr.com:4444 --token mypassword
+./xmrig -o 127.0.0.1:1234 -u 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD -a rx/0 -t 1
+
+
