@@ -14,3 +14,5 @@ sudo cp {client}/root.pem /etc/ssl/certs/cacert.pem
 
 http://www.honlyc.com/post/golang-x509-certificate-unknown-authority/
 https://cloud.tencent.com/developer/article/1651907
+
+在windows上，发现暂时不需添加证书，就能使用xmr，但是对于hac，则不兼容，因此可能需要做额外开发； --hac体量暂时太小，没必要
